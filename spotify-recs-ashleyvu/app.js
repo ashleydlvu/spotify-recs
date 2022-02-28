@@ -1,7 +1,6 @@
 /**
  * Ashley Vu
  * Date: 5/15/21
- * Section: AF/TA: Shriya Kurpad
  * This is the app.jss that acts as the backend that sends information
  * about different music recommendations back to the client side code to
  * be display back to the user in the browser.
