@@ -1,0 +1,76 @@
+/* Ashley Vu
+Date: 5/15/21
+Section: AF/TA: Shriya Kurpad
+This is the style.css page that styles the page to give it
+the appearance of the Spotify interface by using a similar color
+palette and font. It is designed to be sleek and minimalistic to mimic
+the Spotify interface since it is Spotify themed. */
+
+body {
+  background-color: #191414;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: #1DB954;
+  margin: 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10%;
+  height: 100px;
+  width: 300px;
+}
+
+header {
+  height: 75vh;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.genres, #recs-btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header > h1, #get-recs > h1 {
+  font-size: 60px;
+}
+
+.genre {
+  font-size: 50px;
+}
+
+.recommendation {
+  font-size: 45px;
+  padding-bottom: 125px;
+}
+
+header > h2 {
+  font-size: 22px;
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.genre, .genre-description, .recommendation, #get-recs > h1, #get-recs {
+  text-align: center;
+}
+
+#get-recs {
+  height: 375px;
+  width: 80%;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.genre-description {
+  font-size: 20px;
+}
